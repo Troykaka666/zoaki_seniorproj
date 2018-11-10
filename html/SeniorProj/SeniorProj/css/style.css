@@ -1,0 +1,47 @@
+.logo-img {
+  width: 100px;
+}
+.gap {
+  margin-top: 70%;
+}
+
+/* showcase */
+.carousel-item {
+  height: 550px;
+}
+.carousel-item-img-1 {
+  background-image: url("../img/kittens-cat-cat-puppy-rush-sm.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.carousel-item-img-2 {
+  background-image: url("../img/pexels-photo-sm.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.carousel-item-img-3 {
+  background-image: url("../img/slide-img3-sm.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 806px) {
+  .logo-img {
+    width: 40%;
+  }
+  .nav-item {
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .logo-img2 {
+    display: none;
+  }
+  .logo-img-sm {
+    border: none !important;
+  }
+  .navbar-toggler {
+    display: inline !important;
+  }
+}
